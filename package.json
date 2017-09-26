@@ -1,0 +1,23 @@
+{
+  "name": "src-to-dest",
+  "version": "0.0.0",
+  "description": "creates a web page given a template, contents, and data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranieribt/src-to-dest.git"
+  },
+  "author": "Ranieri Teixeira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranieribt/src-to-dest/issues"
+  },
+  "homepage": "https://github.com/ranieribt/src-to-dest#readme",
+  "devDependencies": {
+    "jest": "^21.1.0",
+    "standard": "^10.0.3"
+  }
+}
