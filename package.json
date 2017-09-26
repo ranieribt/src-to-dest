@@ -1,10 +1,9 @@
 {
-  "name": "src-to-dest",
+  "name": "web-page-builder",
   "jest": {
     "verbose": true,
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/test/",
       "<rootDir>/example-site/",
       "<rootDir>/lib/__tests__/fixtures/",
       "<rootDir>/lib/__tests__/template.test.js",
@@ -46,7 +45,6 @@
   "homepage": "https://github.com/ranieribt/src-to-dest#readme",
   "devDependencies": {
     "jest": "^21.1.0",
-    "standard": "^10.0.3",
-    "tape": "^4.8.0"
+    "standard": "^10.0.3"
   }
 }
