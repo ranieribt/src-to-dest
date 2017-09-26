@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+example/build/
+
+lib/__tests__/fixtures/**/build/
+
