@@ -1,4 +1,4 @@
-# src-to-dest
+# web-page-builder
 
 Creates a web page given a template, contents, and data.
 
