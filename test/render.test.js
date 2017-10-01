@@ -14,10 +14,8 @@ var fixtures = {
 }
 
 describe('render()', () => {
-  test('render a full HTML page', done => {
-    render(fixtures.template, fixtures.page, fixtures.data, result => {
-      expect(result).toBe(fixtures.expected)
-      done()
-    })
+  test('render a full HTML page', () => {
+    var result = render(fixtures.template, fixtures.page, fixtures.data)
+    expect(result).toBe(fixtures.expected)
   })
 })
